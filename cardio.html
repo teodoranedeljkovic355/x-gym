@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>X Gym - Fitness HTML Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="X Gym Fitness HTML Template">
+	<meta name="keywords" content="fitness, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script language="JavaScript" src="js/x-gym.js"></script>
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+  <link rel="stylesheet" href="css/slicknav.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+  <script src="js/addons/rating.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+  
+</head>
+<body onload="ispisi_ocene_cardio()">
+	<container>
+		<!-- Page Preloder -->
+		<div id="preloder">
+			<div class="loader"></div>
+		</div>
+	
+		<!-- Header section -->
+		<header>
+      <div class="row">
+        <div class="col-sm-10 col-xs-10 col-lg-10 col-md-10" id="mrvice">
+          <table>
+            <tr>
+              <td onmousedown="bread_crm(1)" id="1"></td>
+              <td onmousedown="bread_crm(2)" id="2"></td>
+              <td onmousedown="bread_crm(3)" id="3"></td>
+              <td onmousedown="bread_crm(4)" id="4"></td>
+              <td onmousedown="bread_crm(5)" id="5"></td>
+              <td onmousedown="bread_crm(6)" id="6"></td>
+              <td onmousedown="bread_crm(7)" id="7"></td>
+              <td onmousedown="bread_crm(8)" id="8"></td>
+              <td onmousedown="bread_crm(9)" id="9"></td>
+              <td onmousedown="bread_crm(10)" id="10"></td>
+              <td onmousedown="bread_crm(11)" id="11"></td>
+              <td onmousedown="bread_crm(12)" id="12"></td>
+              <td onmousedown="bread_crm(13)" id="13"></td>
+              <td onmousedown="bread_crm(14)" id="14"></td>
+              <td onmousedown="bread_crm(15)" id="15"></td>
+              <td onmousedown="bread_crm(16)" id="16"></td>
+              <td onmousedown="bread_crm(17)" id="17"></td>
+              <td onmousedown="bread_crm(18)" id="18"></td>
+              <td onmousedown="bread_crm(19)" id="19"></td>
+              <td onmousedown="bread_crm(20)" id="20"></td>
+            </tr>
+          </table>
+        </div>
+        <div class='col-sm-2 col-lg-2 col-xs-2 col-md-2'>
+          <table>
+            <tr>
+              <td>
+                <button class="language" type="button" onmousedown="changeLanguage(1, 'cardio_eng.html')">ENG</button>
+              </td>
+              <td>
+                <button onmousedown="changeLanguage(0,'cardio.html')" class="language" type="button">SRB</button> 
+              </td>
+            </tr>
+          </table>
+         
+        </div>
+      </div>
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" id="s">
+					<a href="index.html">
+						<img src="Component 1.png" class="img-responsive center-block">
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="nav">
+			<ul class="main-menu">
+				<li><a onmousedown="promeni_stranicu('cardio.html', 'index.html')">Početna</a></li>
+			<li><a  class="active" onmousedown="promeni_stranicu('cardio.html', 'classes.html')">Usluge</a></li>
+			<li><a onmousedown="promeni_stranicu('cardio.html', 'zakazivanje.html')">Zakazivanje treninga</a></li>
+			<li><a onmousedown="promeni_stranicu('cardio.html', 'nalog.html')">Moj nalog</a></li>
+			<li><a onmousedown="promeni_stranicu('cardio.html', 'onama.html')">O nama</a></li>
+				<li class="header-right">
+				</li>
+			</ul>
+		</div>
+		</div>
+		<br>
+  <div class="clearfix"></div>
+  
+    <section class="page-top-section set-bg" data-setbg="img/bg-2.jpg">
+    		<div class="container">
+			<h2>Cardio treninzi</h2>
+		</div>
+	</section>
+  <br>
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <img src="img/car.jpeg" height="90%" width="100%" alt="">
+        </div>
+        <div class="col-lg-s6 col-md-6 col-sm-12 col-xs-12">
+           
+                <h2>Klasični cardio</h2>
+                <br>
+               <div class="row">
+                    <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 ce">
+                        <img src="img/time.png" alt="">
+                    </div>
+                    <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 ce">
+                    <img src="img/thunder.png" alt="">
+                    </div> 
+                    <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 ce">
+                         <img src="img/star.png" alt="">
+                    </div> 
+               </div>
+               <div class="row" >
+                <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 ce">
+                    60min
+                </div>
+                <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 ce">
+                  4/5
+                </div> 
+                <div class="col-sm-4 col-xs-4 col-lg-4 col-md-4 ce" id="klasicni_cardio_ocena">
+                    3/5
+                </div> 
+           </div>
+            <div class="y">
+
+                Kardio-vežbe su neophodne za svaki efikasan program treninga, ne samo za sagorevanje masnoća, već i za celokupno dobro zdravlje. U ovaj program spada korišćenje svih sprava za cardio-traka, bicikla, skijaško i steper.
+                Kardio-vežbama jačate srce i pluća i smanjujete broj otkucaja srca u stanju mirovanja. Cardio vežbe sagorevaju masnoće, a dobro stanje srca (cardio-fitnes) je ono što daje izdržljivost i sposobnost da istrajete u sportu i u životu.
+
+            </div> 
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <form name="forma" method="POST">
+                  <input type="radio" id="klasicni_cardio_1" name="klasicni_cardio">
+                  <label for="1">1</label>
+                  <br>
+                  <input type="radio" id="klasicni_cardio_2" name="klasicni_cardio">
+                  <label for="2">2</label>
+                  <br>
+                  <input type="radio" id="klasicni_cardio_3" name="klasicni_cardio">
+                  <label for="3">3</label>
+                  <br>
+                  <input type="radio" id="klasicni_cardio_4" name="klasicni_cardio">
+                  <label for="4">4</label>
+                  <br>
+                  <input type="radio" id="klasicni_cardio_5" name="klasicni_cardio">
+                  <label for="5">5</label>
+              </form>
+              </div>
+              <div class='col-lg-3 col-md-3 col-sm-3 col-xs-3 offset-md-2 offset-lg-2 offset-sm-2 offset-xs-2'>
+                <form method="POST">
+                  <textarea id="klasicni_cardio_komentar" rows="4" cols="30" placeholder="Leave comment here..."></textarea>
+                    </form>  
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <button class="site-btn" type='button' name='dugme1' onclick="oceni_klasicni_cardio()">Oceni</button>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 offset-md-2 offset-lg-2 offset-sm-2 offset-xs-2">
+              <button class="site-btn" type='button' name='dugme1' onclick="komentarisi_klasicni_cardio()">Ostavi komentar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+        <table class= "table table-dark" id="tabela_klasicni_cardio_komentar">
+        </table>
+      </div>
+    </div>
+    <div class="row">
+        <div class="column"><br>
+          <img src="img/car.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          
+        </div>
+        <div class="column"> <br>
+          <img src="img/car1.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        
+        </div>
+        <div class="column"> <br>
+          <img src="img/car2.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+         
+        </div>
+        <div class="column"> <br>
+          <img src="img/car3.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+         
+        </div>
+      </div>
+
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/car.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/car1.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/car2.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/car3.jpeg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="img/car.jpeg" onclick="currentSlide(1)" alt="Warior poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car1.jpeg" onclick="currentSlide(2)" alt="Bridge poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car2.jpeg" onclick="currentSlide(3)" alt="Cobra poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car3.jpeg" onclick="currentSlide(4)" alt="Cat cow poza">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ce">
+          <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/50kH47ZztHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ce">
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nGn5g1V74U0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+      </div>
+      <br>      
+      <br><br><br>
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/car.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/car1.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/car2.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/car3.jpeg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="img/car.jpeg" onclick="currentSlide(1)" alt="Warior poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car1.jpeg" onclick="currentSlide(2)" alt="Bridge poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car2.jpeg" onclick="currentSlide(3)" alt="Cobra poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car3.jpeg" onclick="currentSlide(4)" alt="Cat cow poza">
+          </div>
+        </div>
+      </div>
+
+    
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <img src="img/car4.jpeg" height="90%" width="100%"  alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+           
+                <h2>HIIT cardio </h2>
+                <br>
+               <div class="row">
+                    <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 ce" >
+                        <img src="img/time.png" alt="">
+                    </div>
+                    <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 ce">
+                    <img src="img/thunder.png" alt="">
+                    </div> 
+                    <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 ce">
+                         <img src="img/star.png" alt="">
+                    </div> 
+               </div>
+               <div class="row">
+                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 ce">
+                    25min
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 ce">
+                   4/5
+                </div> 
+                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 ce" id="hiit_cardio_ocena">
+                    5/5
+                </div> 
+           </div>
+            <div class="y">
+
+                HIIT trening je baziran na takozvanom tabata sistemu programiranja treninga. Sačinjen je od 20 sekundi rada i 10 sekundi pauze koji se smenjuju u okviru 8 rundi različitih vežbi.
+                Intervali nisu duži od 30 do 60 sekundi u fazi napora tj. visokog intenziteta, praćeno sa intervalima niskog intenziteta od po 2-3 minuta relaksacije tj. aktivnog odmora. HIIT kardio trening treba ukupno da traje 20 do 25 minuta po treningu, 3 puta nedeljno. 
+            </div> 
+            <div class='row'>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <form name="forma" method="POST">
+                  <input type="radio" id="hiit_cardio_1" name="hiit_cardio">
+                  <label for="1">1</label>
+                  <br>
+                  <input type="radio" id="hiit_cardio_2" name="hiit_cardio">
+                  <label for="2">2</label>
+                  <br>
+                  <input type="radio" id="hiit_cardio_3" name="hiit_cardio">
+                  <label for="3">3</label>
+                  <br>
+                  <input type="radio" id="hiit_cardio_4" name="hiit_cardio">
+                  <label for="4">4</label>
+                  <br>
+                  <input type="radio" id="hiit_cardio_5" name="hiit_cardio">
+                  <label for="5">5</label>
+              </form>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 offset-xs-2 offset-sm-2 offset-md-2 offset-lg-2">
+              <form method="POST">
+                <textarea id="hiit_cardio_komentar" rows="4" cols="30" placeholder="Leave comment here..."></textarea>
+                </form>  
+            </div>
+          </div>
+         <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <button class="site-btn" type='button' name='dugme1' onclick="oceni_hiit_cardio()">Oceni</button>
+           </div>
+           <div class="col-lg-3 col-sm-3 col-xs-3 col-md-3 offset-sm-2 offset-xs-2 offset-lg-2 offset-md-2">
+            <button class="site-btn" type='button' name='dugme1' onclick="komentarisi_hiit_cardio()">Ostavi komentar</button>
+           </div>
+         </div>
+        </div>
+        
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+        <table class= "table table-dark" id="tabela_hiit_cardio_komentar">
+        </table>
+      </div>
+    </div>
+    <div class="row">
+        <div class="column"><br>
+          <img src="img/car5.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          
+        </div>
+        <div class="column"><br>
+          <img src="img/car6.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+          
+        </div>
+        <div class="column"><br>
+          <img src="img/car7.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          
+        </div>
+        <div class="column"> <br>
+          <img src="img/car8.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+         
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ce">
+          <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XIeCMhNWFQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+          </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ce">
+          <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ml6cT4AZdqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>      
+      <br><br>
+      <!-- The Modal/Lightbox -->
+      <div id="myModal1" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/car5.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/car6.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/car7.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/car8.jpeg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="img/car5.jpeg" onclick="currentSlide(1)" alt="Warior poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car6.jpeg" onclick="currentSlide(2)" alt="Bridge poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car7.jpeg" onclick="currentSlide(3)" alt="Cobra poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car8.jpeg" onclick="currentSlide(4)" alt="Cat cow poza">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <img src="img/car9.jpeg" alt="" width="100%" height="90%">
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+           
+                <h2>Cardio Bodycombat </h2>
+                <br>
+               <div class="row">
+                    <div class="col-sm-4 col-xs-4 col-md col-lg-4 ce">
+                        <img src="img/time.png" alt="">
+                    </div>
+                    <div class="col-sm-4 col-xs-4 col-md col-lg-4 ce">
+                    <img src="img/thunder.png" alt="">
+                    </div> 
+                    <div class="col-sm-4 col-xs-4 col-md col-lg-4 ce">
+                         <img src="img/star.png "  alt="">
+                    </div> 
+               </div>
+               <div class="row">
+                <div class="col-sm-4 col-xs-4 col-md col-lg-4 ce">
+                    50min
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md col-lg-4 ce">
+                    5/5
+                </div> 
+                <div class="col-sm-4 col-xs-4 col-md col-lg-4 ce" id="bodycombat_cardio_ocena">
+                     5/5
+                </div> 
+           </div>
+            <div class="y">
+                U pitanju je svetski koncept od ukupno 14 različitih treninga. Jedini trening na kome možete totalno da oslobodite sve negativno iz sebe i da se nakon toga osećate sjajno. Ovaj energični program je inspirisan mešavinom borilačkih veština i koriste se pokreti iz raznih disciplina kao što su: karate, boks, tai chi i muay thai.
+                I to nije samo tih 55 minuta treninga. To je mnogo više od toga. To je energija zahvaljujući kojoj se lakše podnosi svakodnevica.
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                <form name="forma" method="POST">
+                  <input type="radio" id="bodycombat_cardio_1" name="bodycombat_cardio">
+                  <label for="1">1</label>
+                  <br>
+                  <input type="radio" id="bodycombat_cardio_2" name="bodycombat_cardio">
+                  <label for="2">2</label>
+                  <br>
+                  <input type="radio" id="bodycombat_cardio_3" name="bodycombat_cardio">
+                  <label for="3">3</label>
+                  <br>
+                  <input type="radio" id="bodycombat_cardio_4" name="bodycombat_cardio">
+                  <label for="4">4</label>
+                  <br>
+                  <input type="radio" id="bodycombat_cardio_5" name="bodycombat_cardio">
+                  <label for="5">5</label>
+                  </form>
+              </div>
+              <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 offset-sm-2 offset-xs-2 offset-md-2 offset-lg-2">
+                <form method="POST">
+                  <textarea id="bodycombat_cardio_komentar" rows="4" cols="30" placeholder="Leave comment here..."></textarea>
+                   </form>   
+              </div>
+            </div>
+        <div class="row">
+          <div class=" col-lg-3 col-md-3 col-xs-3 col-sm-3">
+            <button class="site-btn" type='button' name='dugme1' onclick="oceni_bodycombat_cardio()">Oceni</button>
+          </div>
+          <div class=" col-lg-3 col-md-3 col-xs-3 col-sm-3 offset-sm-2 offset-xs-2 offset-lg-2 offset-md-2">
+            <button class="site-btn" type='button' name='dugme1' onclick="komentarisi_bodycombat_cardio()">Ostavi komentar</button>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+        <table class= "table table-dark" id="tabela_bodycombat_cardio_komentar">
+        </table>
+      </div>
+    </div>
+    <BR>
+    <div class="row">
+        <div class="column"> <br>
+          <img src="img/car10.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+         
+        </div>
+        <div class="column"> <br>
+          <img src="img/car11.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+         
+        </div>
+        <div class="column"><br>
+          <img src="img/car12.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+         
+        </div>
+        <div class="column"> <br>
+          <img src="img/car13.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+          
+        </div>
+      </div>
+      <br>
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/car10.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/car11.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/car12.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/car13.jpeg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="img/car10.jpeg" onclick="currentSlide(1)" alt="Warior poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car11.jpeg" onclick="currentSlide(2)" alt="Bridge poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car12.jpeg" onclick="currentSlide(3)" alt="Cobra poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car13.jpeg" onclick="currentSlide(4)" alt="Cat cow poza">
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ce">
+          <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xbABGepKT2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ce">
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gid7mT-1YnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+     
+      
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/car10.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/car11.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/car12.jpeg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/car13.jpeg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="img/car10.jpeg" onclick="currentSlide(1)" alt="Warior poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car11.jpeg" onclick="currentSlide(2)" alt="Bridge poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car12.jpeg" onclick="currentSlide(3)" alt="Cobra poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/car13.jpeg" onclick="currentSlide(4)" alt="Cat cow poza">
+          </div>
+        </div>
+      </div>
+
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <img src="img/zumba.jfif" height="100%" width="100%" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+           
+                <h2>Zumba cardio</h2>
+                <br>
+               <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 ce">
+                        <img src="img/time.png" alt="">
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 ce">
+                    <img src="img/thunder.png" alt="">
+                    </div> 
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 ce">
+                         <img src="img/star.png" alt="">
+                    </div> 
+               </div>
+               <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 ce">
+                  60min
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 ce">
+                    2/5
+                </div> 
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 ce" id="zumba_cardio_ocena">
+                     5/5
+                </div> 
+           </div>
+            <div class="y">
+                ZUMBA je energični program koji kombinuje elemente latino plesova sa fitnes pokretima. Zahvaljujući takvoj koncepciji, uz standardni trening učite i plesne pokrete, a pri tom doživljavate jedinstveni spoj zabave i adrenalina.
+                Brojne delotvornosti ovog treninga odnose se na sledeće: poboljšavaju se koordinacija, fleksibilnost tela i njegova izdržljivost, jačanje kardivaskularnog sistema, aktivno se sagorevaju masti (uz gubljenje skoro 2000 kalorija po jednom treningu).
+                 </div> 
+                 <div class="row">
+                   <div class="col-sm-3 col-xs-3 col-lg-3 col-md-3">
+                    <form name="forma" method="POST">
+                      <input type="radio" id="zumba_cardio_1" name="zumba_cardio">
+                      <label for="1">1</label>
+                      <br>
+                      <input type="radio" id="zumba_cardio_2" name="zumba_cardio">
+                      <label for="2">2</label>
+                      <br>
+                      <input type="radio" id="zumba_cardio_3" name="zumba_cardio">
+                      <label for="3">3</label>
+                      <br>
+                      <input type="radio" id="zumba_cardio_4" name="zumba_cardio">
+                      <label for="4">4</label>
+                      <br>
+                      <input type="radio" id="zumba_cardio_5" name="zumba_cardio">
+                      <label for="5">5</label></form>
+                   </div>
+                   <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3 offset-sm-2 offset-xs-2 offset-md-2 offset-lg-2">
+                    <form method="POST">
+                      <textarea id="zumba_cardio_komentar" rows="4" cols="30" placeholder="Leave comment here..."></textarea>
+                       </form>  
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
+                    <button class="site-btn" type='button' name='dugme1' onclick="oceni_zumba_cardio()">Oceni</button>
+                   </div>
+                   <div class='col-lg-3 col-md-3 col-sm-3 col-xs-3 offset-lg-2 offset-sm-2 offset-xs-2 offset-md-2'>
+                    <button class="site-btn" type='button' name='dugme1' onclick="komentarisi_zumba_cardio()">Ostavi komentar</button>
+                  </div>
+                 </div>
+              
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+        <table class= "table table-dark" id="tabela_zumba_cardio_komentar">
+        </table>
+      </div>
+    </div>
+    <BR></BR>
+    <div class="row">
+        <div class="column"><br>
+          <img src="img/zumba1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          
+        </div>
+        <div class="column"><br>
+          <img src="img/zumba2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+         
+        </div>
+        <div class="column"><br>
+          <img src="img/zumba.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          
+        </div>
+        <div class="column"> <br>
+          <img src="img/zumba4.jfif" onclick="openModal();currentSlide(4)" class="hover-shadow">
+         
+        </div>
+      </div>
+     <br>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 ce">
+          <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HRkNfdlm5Qs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+       </div>
+       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ce">
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cLJfmPaKb1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+     </div>
+      </div>
+      <!-- The Modal/Lightbox -->
+      <div id="myModal1" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/zumba1.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/zumba2.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/zumba.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/zumba4.jfif" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="img/zumba1.jpg" onclick="currentSlide(1)" alt="Warior poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/zumba2.jpg" onclick="currentSlide(2)" alt="Bridge poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/zumba.png" onclick="currentSlide(3)" alt="Cobra poza">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/zumba4.jfif" onclick="currentSlide(4)" alt="Cat cow poza">
+          </div>
+        </div>
+      </div>
+</div>
+    </div>
+  </div>
+  
+
+  <footer class="newsletter-section set-bg" data-setbg="img/newsletter-bg.jpg">
+		
+		<div class="row">
+			<div class="col-md-9 order-2 order-md-1">
+				<div class="copyright"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          <i>Copyright</i> &copy;<script>document.write(new Date().getFullYear());</script> <i>, Teodora Nedeljković, Aleksa Čolović, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu</i>
+
+			</div>
+			
+    </div>
+    <div class="col-lg-3 col-sm- col-xs-3 col-md-33">
+      <div class="footer-widget">
+       <p>Pronadjite nas na društvenim mrežama</p>
+        <div class="fw-info-box">
+          <div class="social-links">
+            <a href="http://www.google.com"><i class="fa fa-pinterest"></i></a>
+            <a href="http://www.google.com"><i class="fa fa-facebook"></i></a>
+            <a href="http://www.google.com"><i class="fa fa-twitter"></i></a>
+            <a href="http://www.google.com"><i class="fa fa-dribbble"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+</footer>
+												
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+</container>
+	</body>
+</html>

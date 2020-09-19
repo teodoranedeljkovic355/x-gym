@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <title>X Gym - Fitness HTML Template</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="X Gym Fitness HTML Template" />
+    <meta name="keywords" content="fitness, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script language="JavaScript" src="js/x-gym.js"></script>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="shortcut icon" />
+
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" />
+
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body onload="odradjen_trening()">
+    <container>
+      <!-- Page Preloder -->
+      <div id="preloder">
+        <div class="loader"></div>
+      </div>
+
+      <!-- Header section -->
+      <header>
+        <div class="row">
+          <div class="col-sm-10 col-xs-10 col-lg-10 col-md-10" id="mrvice">
+            <table>
+              <tr>
+                <td onmousedown="bread_crm(1)" id="1"></td>
+                <td onmousedown="bread_crm(2)" id="2"></td>
+                <td onmousedown="bread_crm(3)" id="3"></td>
+                <td onmousedown="bread_crm(4)" id="4"></td>
+                <td onmousedown="bread_crm(5)" id="5"></td>
+                <td onmousedown="bread_crm(6)" id="6"></td>
+                <td onmousedown="bread_crm(7)" id="7"></td>
+                <td onmousedown="bread_crm(8)" id="8"></td>
+                <td onmousedown="bread_crm(9)" id="9"></td>
+                <td onmousedown="bread_crm(10)" id="10"></td>
+                <td onmousedown="bread_crm(11)" id="11"></td>
+                <td onmousedown="bread_crm(12)" id="12"></td>
+                <td onmousedown="bread_crm(13)" id="13"></td>
+                <td onmousedown="bread_crm(14)" id="14"></td>
+                <td onmousedown="bread_crm(15)" id="15"></td>
+                <td onmousedown="bread_crm(16)" id="16"></td>
+                <td onmousedown="bread_crm(17)" id="17"></td>
+                <td onmousedown="bread_crm(18)" id="18"></td>
+                <td onmousedown="bread_crm(19)" id="19"></td>
+                <td onmousedown="bread_crm(20)" id="20"></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-sm-2 col-lg-2 col-xs-2 col-md-2">
+            <table>
+              <tr>
+                <td>
+                  <button
+                    class="language"
+                    type="button"
+                    onmousedown="changeLanguage(1, 'masaze_eng.html')"
+                  >
+                    ENG
+                  </button>
+                </td>
+                <td>
+                  <button
+                    onmousedown="changeLanguage(0, 'masaze.html')"
+                    class="language"
+                    type="button"
+                  >
+                    SRB
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" id="s">
+            <a href="index_eng.html">
+              <img src="Component 1.png" class="img-responsive center-block" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" id="nav">
+          <ul class="main-menu">
+            <li>
+              <a
+                onmousedown="promeni_stranicu('masaze_eng.html', 'index_eng.html')"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="active"
+                onmousedown="promeni_stranicu('masaze_eng.html', 'classes_eng.html')"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                onmousedown="promeni_stranicu('masaze_eng.html', 'zakazivanje_eng.html')"
+                >Schedule training</a
+              >
+            </li>
+            <li>
+              <a
+                onmousedown="promeni_stranicu('masaze_eng.html', 'nalog_eng.html')"
+                >My account</a
+              >
+            </li>
+            <li>
+              <a
+                onmousedown="promeni_stranicu('masaze_eng.html', 'onama_eng.html')"
+                >About us</a
+              >
+            </li>
+            <li class="header-right"></li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="clearfix"></div>
+      <!-- Header section end -->
+
+      <!-- Page top section -->
+      <section class="page-top-section set-bg" data-setbg="img/mas4.jfif">
+        <div class="container">
+          <h2>Massages</h2>
+        </div>
+      </section>
+      <!-- Page top section end -->
+
+      <!-- About section -->
+      <section class="about-section">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-lg-5 col-sm-5 col-xs-5 col-md-5">
+              <div class="section-title text-center">
+                <h2>We <span> care</span>about your health!</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-4 col-xs-4 col-md-4">
+              <div class="about-text">
+                <p>
+                  Massage is a system of methodical hand movements, ie. grips
+                  which the therapist applies to the patient. Massage can be
+                  therapeutic, sports, relaxing, aromatic anti-cellulite etc. It
+                  has a direct mechanical effect on human tissues organism. Make
+                  sure the massage is done properly only an expert with
+                  practiced movements, knowledge anatomy and body problems
+                  related to massage.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 col-xs-4 col-md-4">
+              <div class="about-text">
+                <p>
+                  During the massage, the receptors on the skin and
+                  subcutaneously are irritated tissue that causes the whole
+                  organism to wake up. Thus massage has a great effect on our
+                  health but also on our mood. Massage is the easiest way to
+                  achieve a feeling of satisfaction and maintaining health.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 col-xs-4 col-md-4">
+              <div class="about-img">
+                <img src="img/mas.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About section end -->
+
+      <!-- Certified section -->
+      <section class="certified-section spad set-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+              <div class="section-title text-center">
+                <h2>
+                  <span>Contact</span> our <br />
+                  physiotherapist Srdjan Pantic.
+                </h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6 ml-auto">
+                <img src="img/srdjan.jpg" alt="" />
+              </div>
+              <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6 ml-auto">
+                <form class="certified-form">
+                  <br />
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+                      <input
+                        id="ime"
+                        type="text"
+                        placeholder="Your name and surname"
+                      />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                      <input id="email" type="text" placeholder="Your e-mail" />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                      <input
+                        id="broj"
+                        type="text"
+                        placeholder="Your phone number"
+                      />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                      <input
+                        id="datum_rodjenja"
+                        type="text"
+                        placeholder="Your date of birth"
+                      />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                      <label
+                        class="attach"
+                        for="attach"
+                        onmousedown="kreiraj_pdf()"
+                        >Download PDF file here.</label
+                      >
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                      <textarea
+                        name="tekst"
+                        placeholder="Decribe your problem"
+                        id="a"
+                        cols="30"
+                        rows="5"
+                      ></textarea>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                      <button class="site-btn">Send e-mail</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Certified section end -->
+
+      <footer
+        class="newsletter-section set-bg"
+        data-setbg="img/newsletter-bg.jpg"
+      >
+        <div class="row">
+          <div class="col-md-9 order-2 order-md-1">
+            <div class="copyright">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <i>Copyright</i> &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                <i
+                  >, Teodora Nedeljković, Aleksa Čolović, Odsek za softversko
+                  inženjerstvo Elektrotehničkog fakulteta Univerziteta u
+                  Beogradu</i
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-3 col-xs-3 col-md-3">
+            <div class="footer-widget">
+              <p>Pronadjite nas na društvenim mrežama</p>
+              <div class="fw-info-box">
+                <div class="social-links">
+                  <a href="http://www.google.com"
+                    ><i class="fa fa-pinterest"></i
+                  ></a>
+                  <a href="http://www.google.com"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a href="http://www.google.com"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                  <a href="http://www.google.com"
+                    ><i class="fa fa-dribbble"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script>
+        function kreiraj_pdf() {
+          var doc = new jsPDF();
+          let ime = document.getElementById("ime").value;
+          let email = document.getElementById("email").value;
+          let broj = document.getElementById("broj").value;
+          let datum = document.getElementById("datum_rodjenja").value;
+          let problem = document.getElementById("a").value;
+
+          let ukupno =
+            "Name and surname: " +
+            ime +
+            "\nE-mail: " +
+            email +
+            "\nPhone number: " +
+            broj +
+            "\nDate of birth: " +
+            datum +
+            "\nDescription of problem: " +
+            problem;
+          doc.text(ukupno, 10, 10);
+          doc.save("masaze.pdf");
+        }
+      </script>
+      <!--====== Javascripts & Jquery ======-->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.slicknav.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/circle-progress.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js"></script>
+    </container>
+  </body>
+</html>

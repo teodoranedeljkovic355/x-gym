@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<title>X Gym - Fitness HTML Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="X Gym Fitness HTML Template">
+	<meta name="keywords" content="fitness, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script language="JavaScript" src="js/x-gym.js"></script>
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+
+</head>
+<body onload="odradjen_trening()">
+	<container>
+	    <!-- Page Preloder -->
+	    <div id="preloder">
+	    	<div class="loader"></div>
+	    </div>
+
+	    <!-- Header section -->
+	    <header>
+            <div class="row">
+                <div class="col-sm-10 col-xs-10 col-lg-10 col-md-10" id="mrvice">
+                    <table>
+                        <tr>
+                            <td onmousedown="bread_crm(1)" id="1"></td>
+                            <td onmousedown="bread_crm(2)" id="2"></td>
+                            <td onmousedown="bread_crm(3)" id="3"></td>
+                            <td onmousedown="bread_crm(4)" id="4"></td>
+                            <td onmousedown="bread_crm(5)" id="5"></td>
+                            <td onmousedown="bread_crm(6)" id="6"></td>
+                            <td onmousedown="bread_crm(7)" id="7"></td>
+                            <td onmousedown="bread_crm(8)" id="8"></td>
+                            <td onmousedown="bread_crm(9)" id="9"></td>
+                            <td onmousedown="bread_crm(10)" id="10"></td>
+                            <td onmousedown="bread_crm(11)" id="11"></td>
+                            <td onmousedown="bread_crm(12)" id="12"></td>
+                            <td onmousedown="bread_crm(13)" id="13"></td>
+                            <td onmousedown="bread_crm(14)" id="14"></td>
+                            <td onmousedown="bread_crm(15)" id="15"></td>
+                            <td onmousedown="bread_crm(16)" id="16"></td>
+                            <td onmousedown="bread_crm(17)" id="17"></td>
+                            <td onmousedown="bread_crm(18)" id="18"></td>
+                            <td onmousedown="bread_crm(19)" id="19"></td>
+                            <td onmousedown="bread_crm(20)" id="20"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-2 col-lg-2 col-xs-2 col-md-2">
+					<table>
+					  <tr>
+						<td>
+							<button class="language" type="button" onmousedown="changeLanguage(1, 'zakazivanje_eng.html')">ENG</button>
+						</td>
+		
+						<td>
+							<button onmousedown="changeLanguage(0, 'zakazivanje.html')" class="language" type="button">SRB</button>
+						</td>
+					  </tr>
+					</table>
+				  </div>
+            </div>
+		    <div class="row">
+			    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" id="s">
+				    <a href="index.html">
+				    	<img src="Component 1.png" class="img-responsive center-block">
+				    </a>
+			    </div>
+		    </div>
+        </header>
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" id="nav">
+            <ul class="main-menu">
+                <li><a onmousedown="promeni_stranicu('zakazivanje.html', 'index.html')">Početna</a></li>
+				<li><a onmousedown="promeni_stranicu('zakazivanje.html', 'classes.html')">Usluge</a></li>
+				<li><a  class="active" onmousedown="promeni_stranicu('zakazivanje.html', 'zakazivanje.html')">Zakazivanje treninga</a></li>
+				<li><a onmousedown="promeni_stranicu('zakazivanje.html', 'nalog.html')">Moj nalog</a></li>
+				<li><a onmousedown="promeni_stranicu('zakazivanje.html', 'onama.html')">O nama</a></li>
+                <li class="header-right">
+                </li>
+            </ul>
+        </div>
+        </div>
+    </br>
+    <div class="clearfix"></div>
+	<!-- Page top section -->
+	<section class="page-top-section set-bg" data-setbg="img/add-bg.jpg">
+        <div class="container">
+          <h2>Zakažite Vaš trening</h2>
+        </div>
+	  </section>
+	  <br><br>
+	  
+    <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 offset-lg-2 offset-md-2 offset-xs-2 offset-sm-2">
+            <form name="forma" method="POST">
+                <input  type="radio" id="core" name="tip" checked>
+                <label for="core">Core</label>
+                <br>
+                <input type="radio" id="pilates" name="tip">
+                <label for="pilates">Pilates</label>
+                <br>
+                <input type="radio" id="yoga" name="tip">
+                <label for="yoga">Yoga</label>
+                <br>
+                <input type="radio" id="cardio" name="tip">
+                <label for="cardio">Cardio</label>
+                <br><br>
+                <button class="site-btn" type='button' name='dugme1' onclick="izaberi_tip_treninga()">Izaberi tip treninga</button>
+            </form>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 offset-lg-2 offset-md-2 offset-xs-2 offset-sm-2">
+            
+                <form name="forma" method="POST">
+                    <input type="radio" id="trening1" name="trening">
+                    <label for="trening1" id="trening1label">Dynamic core</label>
+                    <br>
+                    <input type="radio" id="trening2" name="trening">
+                    <label for="trening2" id="trening2label">Core BURN</label>
+                    <br>
+                    <input type="radio" id="trening3" name="trening">
+                    <label for="trening3" id="trening3label">Core HIIT</label>
+                    <br>
+                    <input type="radio" id="trening4" name="trening">
+                    <label for="trening4" id="trening4label">Core BODYATTACK</label>
+                    <br><br>
+                    <button class="site-btn"type='button' name='dugme2' onclick="izaberi_trening()">Izaberi trening</button>
+                </form>
+                <br><br><br>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2">
+                <table class="table table-dark">
+                    <tr>
+                        <th>Ponedeljak</th>
+                        <th>Utorak</th>
+                        <th>Sreda</th>
+                        <th>Četvrtak</th>
+                        <th>Petak</th>
+                        <th>Subota</th>
+                        <th>Nedelja</th>
+                    </tr>
+                    <tr>
+                        <td id="ponedeljak"></td>
+                        <td id="utorak"></td>
+                        <td id="sreda"></td>
+                        <td id="cetvrtak"></td>
+                        <td id="petak"></td>
+                        <td id="subota"></td>
+                        <td id="nedelja"></td>
+    
+                    </tr>
+                    <tr>
+                        <td id="ponedeljak_rez" onmousedown="rezervisi('ponedeljak')"></td>
+                        <td id="utorak_rez" onmousedown="rezervisi('utorak')"></td>
+                        <td id="sreda_rez" onmousedown="rezervisi('sreda')"></td>
+                        <td id="cetvrtak_rez" onmousedown="rezervisi('cetvrtak')"></td>
+                        <td id="petak_rez" onmousedown="rezervisi('petak')">  </td>
+                        <td id="subota_rez" onmousedown="rezervisi('subota')">  </td>
+                        <td id="nedelja_rez" onmousedown="rezervisi('nedelja')"></td>
+                    </tr>
+    
+    
+    
+                    
+                </table>
+             </div>
+        </div>
+   
+        <footer class="newsletter-section set-bg" data-setbg="img/newsletter-bg.jpg">
+		
+            <div class="row">
+                <div class="col-md-9 order-2 order-md-1">
+                    <div class="copyright"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <i>Copyright</i> &copy;<script>document.write(new Date().getFullYear());</script> <i>, Teodora Nedeljković, Aleksa Čolović, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu</i>
+    
+                </div>
+                
+        </div>
+        <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+          <div class="footer-widget">
+           <p>Pronadjite nas na društvenim mrežama</p>
+            <div class="fw-info-box">
+              <div class="social-links">
+                <a href="http://www.google.com"><i class="fa fa-pinterest"></i></a>
+                <a href="http://www.google.com"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.google.com"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.google.com"><i class="fa fa-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </footer>
+	<!-- Footer section end -->
+									
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+</container>
+</body>
+</html>
